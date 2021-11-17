@@ -1,0 +1,24 @@
+
+  <div class="col-md-6 user-container">
+    <h2 style="margin: auto"> CustomerComplaits</h2>
+    <button class="btn btn-danger" style="width:100px" (click)="addComplaint()"> Add Complaint</button>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th class="hidden">Id</th>
+        <th>Name</th>
+        <th>Complaints</th>
+       
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let comp of complaint">
+        <td class="hidden"></td>
+        <td></td>
+        <td></td>
+        
+
+      </tr>
+      </tbody>
+    </table>
+  </div>

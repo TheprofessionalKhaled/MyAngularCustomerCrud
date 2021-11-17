@@ -1,0 +1,22 @@
+<div class="col-md-6 user-container">
+    <h2 class="text-center">Add Complaints</h2>
+    <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input formControlName="Name" placeholder="Name" name="Name" class="form-control" id="Name">
+      </div>
+  
+      <div class="form-group">
+        <label for="complaints">Complaints:</label>
+        <input formControlName="complaints" placeholder="complaints" name="complaints" class="form-control" id="complaints">
+      </div>
+  
+      
+  
+    
+  
+      <button class="btn btn-success">Add</button>
+    </form>
+  </div>
